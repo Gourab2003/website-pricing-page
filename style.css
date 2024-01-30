@@ -195,8 +195,12 @@
 }
 
 .pricing-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: auto;
   padding: 20px;
+  height: auto;
   background-color: #ffffff;
   border-radius: 10px;
   text-align: center;
